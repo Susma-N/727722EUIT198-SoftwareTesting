@@ -31,7 +31,7 @@ public class class1
    @BeforeMethod
    public void setup()
    {
-      ExtentSparkReporter spark=new ExtentSparkReporter("C:\\Users\\susma\\Documents\\WebSite-01.html");
+      ExtentSparkReporter spark=new ExtentSparkReporter("C:\\Users\\susma\\Documents\\classwork.html");
       extent=new ExtentReports();
       extent.attachReport(spark);
       WebDriverManager.chromedriver().setup();
